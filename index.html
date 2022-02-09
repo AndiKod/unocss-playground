@@ -6,24 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UnoCSS :Playground</title>
   </head>
-  <body box-sizing-content-box>
-    <div h-100vh background-darkGrey color-white p-10>
-      <h1 text="4xl indigo-700" font="bold mono">Heading 1<span class="i-carbon-sun dark:i-carbon-moon" /></h1>
-      <h2 font-bold c-pink>Heading 2</h2>
+  <body box-sizing-content-box background-darkGrey color-white>    
+      <header p-20>       
+        <h1 text="4xl green-400" font="bold mono">UnoCSS</h1>
+        <h2 font-bold c-pink>Playground</h2>
+      </header>
+
       <!-- The white stuff in the middle -->
-      <div
-        w-50vw br-4
-        ml-auto mr-auto p-10
-        background-FFFAFA
-      >
-        <div d-flex align-items-center
-        text="2.5rem #1f2826"
-        font="mono semibold">
-          Reminder <p i-mdi-alarm text="2rem #411651" ml-5px />
+      <div w-50vw ml-auto mr-auto p-10 br-4  background-FFFAFA>
+        <div d-flex align-items-center text="1.5rem #1f2826" font="mono semibold">
+          <a href="https://github.com/AndiKod/unocss-playground">AndiKod/unocss-playground</a>
+          <p i-mdi-github text="1.5rem #411651" ml-5px />
         </div>
       </div>
 
-    </div>
+    
     <script type="module" src="/main.js"></script>
   </body>
 </html>
