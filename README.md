@@ -12,4 +12,4 @@ yarn dev
 yarn build  // Will build into /dist
 ```
 
-*Feel free to play around with ;)*
+*Feel free to play around with* 
